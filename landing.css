@@ -1,0 +1,109 @@
+body {
+    background-image: url(./images/restaurant-4.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .table-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #ebb4b4;
+    color: #000000;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #cdcfbd;
+  }
+  tr:nth-child(odd) {
+    background-color: #cdcfbd;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .add-button {
+    background-color: #2196f3;
+  }
+  
+  .add-button:hover {
+    background-color: #0b7dda;
+  }
+  
+  .delete-button {
+    background-color: #ecbbb7;
+  }
+  
+  .delete-button:hover {
+    background-color: #f0e5e4;
+  }
+  
+  .edit-button {
+    background-color: #52504d;
+  }
+  
+  .edit-button:hover {
+    background-color: #b39c7b;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .form-container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-container button {
+    padding: 8px 16px;
+    background-color: #a6d5fc;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #0b7dda;
+  }
